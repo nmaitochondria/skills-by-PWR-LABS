@@ -5,7 +5,7 @@ Public home for **[skills.]** documentation: the **Notion-ready catalog** and th
 - **Notion hub:** [skills by PWR LABS](https://www.notion.so/skills-by-PWR-LABS-35d50bc778328020a178d10e7a091bee)
 - **GitHub (hyphenated remote name):** [nmaitochondria/skills-by-PWR-LABS](https://github.com/nmaitochondria/skills-by-PWR-LABS) — this folder is your local checkout beside **golgi**, **nucleus**, **ribosome**, etc. (spaces in the directory name are intentional for Cursor layout.)
 
-**Operator automation** (Notion seed, env, vendored `SKILL.md` **packs** for raw URLs) runs from **[PWR-LABS/nucleus](https://github.com/PWR-LABS/nucleus)** — see [`docs/NUCLEUS_PUBLICATION_PLAYBOOK.md`](https://github.com/PWR-LABS/nucleus/blob/main/docs/NUCLEUS_PUBLICATION_PLAYBOOK.md). You do **not** need a separate “skills agent” beyond this public doc tree plus nucleus.
+**Operator automation** (Notion seed, env, vendored `SKILL.md` **packs** for raw URLs) runs from **[PWR-LABS/nucleus](https://github.com/PWR-LABS/nucleus)** — see [`docs/NUCLEUS_PUBLICATION_PLAYBOOK.md`](https://github.com/PWR-LABS/nucleus/blob/main/docs/NUCLEUS_PUBLICATION_PLAYBOOK.md). You do **not** need a separate “skills agent” beyond this public doc tree plus a **[nucleus.]-like executor** (any runner that follows that playbook with its own Notion/env secrets). The public nucleus checkout is the reference implementation today; it is intentionally single-operator and carries the portfolio token burden, not a hosted product every reader must adopt.
 
 ---
 
