@@ -1,4 +1,4 @@
-# skills-by-PWR-LABS
+# [skills.] by [PWR] LABS
 
 Public home for **[PWR] LABS** [Cursor Agent Skills](https://cursor.com/docs/context/skills): portable **`SKILL.md`** instructions used across the portfolio.
 
