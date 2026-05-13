@@ -48,12 +48,10 @@
 
 ### `[chaperone.]`
 
-All five Notion rows use the **`[chaperone.]`** product tag. The first two rows still show **ribosome** under **Authoring repo** because those `SKILL.md` files live under **`ribosome/.cursor/skills/`** (PWR-library layout); only change that cell to **chaperone** if you **move** those folders into the chaperone checkout.
-
 | skill_id | Authoring repo | Canonical path | Public pack |
 | --- | --- | --- | --- |
-| `structured-gdoc-notion-application-ingest` | ribosome | `.cursor/skills/structured-gdoc-notion-application-ingest/SKILL.md` | [`skills/structured-gdoc-notion-application-ingest/`](https://github.com/PWR-LABS/nucleus/tree/main/skills/structured-gdoc-notion-application-ingest) |
-| `notion-activity-counter-parity-refresh` | ribosome | `.cursor/skills/notion-activity-counter-parity-refresh/SKILL.md` | [`skills/notion-activity-counter-parity-refresh/`](https://github.com/PWR-LABS/nucleus/tree/main/skills/notion-activity-counter-parity-refresh) |
+| `structured-gdoc-notion-application-ingest` | chaperone | `.cursor/skills/structured-gdoc-notion-application-ingest/SKILL.md` | [`skills/structured-gdoc-notion-application-ingest/`](https://github.com/PWR-LABS/nucleus/tree/main/skills/structured-gdoc-notion-application-ingest) |
+| `notion-activity-counter-parity-refresh` | chaperone | `.cursor/skills/notion-activity-counter-parity-refresh/SKILL.md` | [`skills/notion-activity-counter-parity-refresh/`](https://github.com/PWR-LABS/nucleus/tree/main/skills/notion-activity-counter-parity-refresh) |
 | `admissions-doctrine-notion-sync` | chaperone | `.cursor/skills/admissions-doctrine-notion-sync/SKILL.md` | [`skills/admissions-doctrine-notion-sync/`](https://github.com/PWR-LABS/nucleus/tree/main/skills/admissions-doctrine-notion-sync) |
 | `bounded-integrity-admissions-coaching` | chaperone | `.cursor/skills/bounded-integrity-admissions-coaching/SKILL.md` | [`skills/bounded-integrity-admissions-coaching/`](https://github.com/PWR-LABS/nucleus/tree/main/skills/bounded-integrity-admissions-coaching) |
 | `secondary-application-blitz-cadence` | chaperone | `.cursor/skills/secondary-application-blitz-cadence/SKILL.md` | [`skills/secondary-application-blitz-cadence/`](https://github.com/PWR-LABS/nucleus/tree/main/skills/secondary-application-blitz-cadence) |
