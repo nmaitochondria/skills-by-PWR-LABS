@@ -34,6 +34,7 @@
 | `append-only-connector-directive-log` | ribosome | `.cursor/skills/append-only-connector-directive-log/SKILL.md` | [`skills/append-only-connector-directive-log/`](https://github.com/PWR-LABS/nucleus/tree/main/skills/append-only-connector-directive-log) |
 | `sync-markdown-notion-dossiers` | ribosome | `.cursor/skills/sync-markdown-notion-dossiers/SKILL.md` | [`skills/sync-markdown-notion-dossiers/`](https://github.com/PWR-LABS/nucleus/tree/main/skills/sync-markdown-notion-dossiers) |
 | `isolate-notion-integrations-by-risk` | ribosome | `.cursor/skills/isolate-notion-integrations-by-risk/SKILL.md` | [`skills/isolate-notion-integrations-by-risk/`](https://github.com/PWR-LABS/nucleus/tree/main/skills/isolate-notion-integrations-by-risk) |
+| `cross-repo-edge-audit` | nucleus | `.cursor/skills/cross-repo-edge-audit/SKILL.md` | [`skills/cross-repo-edge-audit/`](https://github.com/PWR-LABS/nucleus/tree/main/skills/cross-repo-edge-audit) |
 
 ---
 
@@ -89,6 +90,6 @@
 
 ## Row count
 
-**20** curated PWR `SKILL.md` entries. If the Notion database shows an extra row, treat it as duplicate / scratch / legacy until reconciled with this index.
+**21** curated PWR `SKILL.md` entries. If the Notion database shows an extra row, treat it as duplicate / scratch / legacy until reconciled with this index.
 
 After you change a canonical `SKILL.md`, refresh the vendored tree under **PWR-LABS/nucleus** `skills/<skill_id>/` and run the hub sync from **nucleus** — procedure lives in [nucleus `skills/README.md`](https://github.com/PWR-LABS/nucleus/blob/main/skills/README.md) and in [`SKILLS_NOTION_HUB_PLAYBOOK.md`](SKILLS_NOTION_HUB_PLAYBOOK.md) §5 (not duplicated here).

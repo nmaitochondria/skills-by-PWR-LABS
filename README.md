@@ -27,7 +27,7 @@ There is **no** doc mirror chain through ribosome for the catalog or playbook: e
 | Doc | Purpose |
 | --- | --- |
 | [`AGENTS.md`](AGENTS.md) | Short directive for agents in **this** repo: docs vs nucleus execution, authoring repo vs Notion tag. |
-| [`docs/SKILLS_PUBLICATION_CATALOG.md`](docs/SKILLS_PUBLICATION_CATALOG.md) | Machine index — **20** curated skills, Notion tagging, links to public `SKILL.md` packs on **PWR-LABS/nucleus** `skills/`. |
+| [`docs/SKILLS_PUBLICATION_CATALOG.md`](docs/SKILLS_PUBLICATION_CATALOG.md) | Machine index — **21** curated skills, Notion tagging, links to public `SKILL.md` packs on **PWR-LABS/nucleus** `skills/`. |
 | [`docs/SKILLS_NOTION_HUB_PLAYBOOK.md`](docs/SKILLS_NOTION_HUB_PLAYBOOK.md) | Hub layout, row semantics, accents, and how to run the skills-hub sync from nucleus. |
 
 Keep these two files aligned with **`SKILL_ROWS`** + hub sync whenever you add or retire a catalog skill.
