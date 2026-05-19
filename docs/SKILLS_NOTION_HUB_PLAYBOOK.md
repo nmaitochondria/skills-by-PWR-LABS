@@ -4,7 +4,7 @@ Use this when filling **[skills by PWR LABS (Notion)](https://www.notion.so/skil
 
 **Canonical machine list:** [`docs/SKILLS_PUBLICATION_CATALOG.md`](SKILLS_PUBLICATION_CATALOG.md) — **in this same public repo** ([skills.] by [PWR] LABS on GitHub).
 
-**Operator scripts** (seed, layered copy): [PWR-LABS/nucleus](https://github.com/PWR-LABS/nucleus) — `scripts/seed_pwr_skills_notion_pages.py`, `scripts/pwr_skills_public_layer.py`, `bash scripts/run_portfolio_notion.sh skills-hub`. **Public `SKILL.md` trees** for downloads: [nucleus `skills/`](https://github.com/PWR-LABS/nucleus/tree/main/skills).
+**Operator scripts** (seed, layered copy): [PWR-LABS/nucleus](https://github.com/PWR-LABS/nucleus) — `scripts/seed_pwr_skills_notion_pages.py`, `scripts/pwr_skills_public_layer.py`, `bash scripts/run_portfolio_notion.sh skills-hub`. **Public `SKILL.md` trees** for downloads: [`skills/`](https://github.com/nmaitochondria/skills-by-PWR-LABS/tree/main/skills) in **this repo**.
 
 ---
 
@@ -52,7 +52,7 @@ For each catalog row, align properties so the **gallery / table** reads like a c
 | **Governance** | On iff `skill_category: governance` |
 | **Product** | Single select **`[ribosome.]`** … or empty when Governance |
 | **Repo** | `ribosome` / `chaperone` / … |
-| **GitHub URL** | Prefer **nucleus** public `skills/<skill_id>/` tree + raw `SKILL.md` (see catalog) |
+| **GitHub URL** | Prefer **this repo** public `skills/<skill_id>/` tree + raw `SKILL.md` (see catalog) |
 
 Link the **portfolio hub page** to this database with a linked view so the hub stays the narrative entry and the DB stays the index.
 
@@ -81,6 +81,7 @@ bash scripts/run_portfolio_notion.sh skills-hub
 - Auth: **`NOTION_PWR_LABS_TOKEN`** only — set explicitly in **nucleus** **`.env`**. Integration must have access to the skills database.
 - Default database id: **`NOTION_PWR_SKILLS_DATABASE_ID`** or `35d50bc7783280fd9fdeea5a5a7efbbe`.
 - **Catalog + playbook URLs** in Notion bodies point at **this public repo** (`GITHUB_PWR_SKILLS_DOC_ORG` / `GITHUB_PWR_SKILLS_DOC_REPO` in nucleus `.env` when your GitHub slug differs from the default).
+- **Public packs:** refresh `skills/<skill_id>/` in **this repo** from sibling product checkouts (see [`skills/README.md`](../skills/README.md)), push **skills-by-PWR-LABS**, then run skills-hub so Notion links stay current.
 
 **Refresh existing bodies:** `--refresh-bodies` deletes direct child blocks on each matched page and re-appends the latest layout. Large pages can take **several minutes**.
 

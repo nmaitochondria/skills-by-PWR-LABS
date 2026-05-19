@@ -1,0 +1,5 @@
+# Optional: OpenAI Codex CLI agent bundle metadata (same as ~/.codex/skills/.../agents/openai.yaml)
+interface:
+  display_name: "Chaperone GDocs to Notion Ingest"
+  short_description: "Run and verify chaperone Google Doc to Notion activities ingests."
+  default_prompt: "Use this skill to diagnose, run, and verify a chaperone Google Doc to Notion activities ingest."
