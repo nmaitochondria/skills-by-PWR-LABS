@@ -1,4 +1,6 @@
-# [PWR] LABS skills hub — Notion layout playbook
+> **Archived (2026-05):** The Notion skills hub is **retired**. Public catalog: [pwr-labs.ai/chromosomes](https://pwr-labs.ai/chromosomes) + [`SKILLS_PUBLICATION_CATALOG.md`](SKILLS_PUBLICATION_CATALOG.md). Use [`SKILLS_PUBLICATION_PLAYBOOK.md`](SKILLS_PUBLICATION_PLAYBOOK.md) for current ops. This file is kept for historical reference only.
+
+# [PWR] LABS skills hub — Notion layout playbook (archived)
 
 Use this when filling **[skills by PWR LABS (Notion)](https://www.notion.so/skills-by-PWR-LABS-35d50bc778328020a178d10e7a091bee)** and the **[skills database](https://www.notion.so/35d50bc7783280fd9fdeea5a5a7efbbe?v=35d50bc77832809b8fad000c2af850d7)** (one row / page per `SKILL.md`). Property columns are already yours to own; map them to the fields below where it helps.
 

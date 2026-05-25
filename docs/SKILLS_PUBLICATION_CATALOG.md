@@ -1,33 +1,31 @@
-# Skills publication catalog (Notion-ready)
+# Skills publication catalog
 
-**Authoritative public index for [skills.]** — this file lives in **this repository** ([skills-by-PWR-LABS](https://github.com/nmaitochondria/skills-by-PWR-LABS) on GitHub). Link it from Notion, the hub README, and anywhere you need a stable URL that does **not** depend on private product repos.
+**Authoritative public index for [skills.]** — this file lives in **this repository** ([skills-by-PWR-LABS](https://github.com/nmaitochondria/skills-by-PWR-LABS) on GitHub). Link it from [pwr-labs.ai/chromosomes](https://pwr-labs.ai/chromosomes), this repo’s README, and anywhere you need a stable URL that does **not** depend on private product repos.
 
-**Machine list:** `SKILL_ROWS` in [PWR-LABS/nucleus `scripts/seed_pwr_skills_notion_pages.py`](https://github.com/PWR-LABS/nucleus/blob/main/scripts/seed_pwr_skills_notion_pages.py) must stay in lockstep with the tables below (skill id, **authoring repo**, `.cursor/skills/` folder). Hub sync runs from **nucleus**; the public **catalog** and **`skills/<skill_id>/` packs** live in **this repo**.
+**Machine list:** `SKILL_ROWS` in [PWR-LABS/nucleus `scripts/seed_pwr_skills_notion_pages.py`](https://github.com/PWR-LABS/nucleus/blob/main/scripts/seed_pwr_skills_notion_pages.py) must stay in lockstep with the tables below (skill id, **authoring repo**, `.cursor/skills/` folder). The public **catalog** and **`skills/<skill_id>/` packs** live in **this repo**.
 
 **Public `SKILL.md` downloads:** vendored trees live under [`skills/`](https://github.com/nmaitochondria/skills-by-PWR-LABS/tree/main/skills) in **this repository** as `skills/<skill_id>/` (full copy for each catalog id). Raw file pattern:
 
 `https://raw.githubusercontent.com/nmaitochondria/skills-by-PWR-LABS/main/skills/<skill_id>/SKILL.md`
 
-**Notion layout + hub cadence:** [`SKILLS_NOTION_HUB_PLAYBOOK.md`](SKILLS_NOTION_HUB_PLAYBOOK.md) in this same repo.
+**Publication playbook:** [`SKILLS_PUBLICATION_PLAYBOOK.md`](SKILLS_PUBLICATION_PLAYBOOK.md) in this same repo.
 
-**Public Notion hub:** [skills by PWR LABS](https://www.notion.so/skills-by-PWR-LABS-35d50bc778328020a178d10e7a091bee) — linked database + portfolio entry.
-
-**Table columns:** **Authoring repo** is the checkout where you edit `SKILL.md` (clone + path). It **can differ** from the Notion **`[product.]`** heading above a block—Notion tags are domain/read-surface; authoring location is where the file actually lives in git.
+**Table columns:** **Authoring repo** is the checkout where you edit `SKILL.md` (clone + path). It **can differ** from the **`[product.]`** tag on the site — product tags are read-surface; authoring location is where the file lives in git.
 
 ---
 
-## Notion tagging rules
+## Product tagging rules
 
-| YAML | Notion behavior |
+| YAML | Meaning |
 | --- | --- |
 | **`skill_category: governance`** | **Governance** / `[PWR] LABS governance` only — no product pack tag. |
-| **`skill_category: product_pack`** + **`skill_pack: "[product.]"`** | Exactly one product select: **`[ribosome.]`, `[golgi.]`, `[chaperone.]`, `[ribosomal.]`, `[synthesis.]`, …** |
+| **`skill_category: product_pack`** + **`skill_pack: "[product.]"`** | Exactly one product: **`[ribosome.]`, `[golgi.]`, `[chaperone.]`, `[ribosomal.]`, `[synthesis.]`, …** |
 
 ---
 
 ## I. Governance (`skill_category: governance`, no `skill_pack`)
 
-| skill_id (Notion title) | Authoring repo | Canonical path | Public pack (this repo `skills/`) |
+| skill_id | Authoring repo | Canonical path | Public pack (this repo `skills/`) |
 | --- | --- | --- | --- |
 | `align-cross-repo-doctrine-connector-handoff` | ribosome | `.cursor/skills/align-cross-repo-doctrine-connector-handoff/SKILL.md` | [`skills/align-cross-repo-doctrine-connector-handoff/`](https://github.com/nmaitochondria/skills-by-PWR-LABS/tree/main/skills/align-cross-repo-doctrine-connector-handoff) |
 | `portfolio-wide-governance` | nucleus | `.cursor/skills/nucleus-global-admin/SKILL.md` | [`skills/portfolio-wide-governance/`](https://github.com/nmaitochondria/skills-by-PWR-LABS/tree/main/skills/portfolio-wide-governance) |
@@ -84,12 +82,12 @@
 
 ## III. Not in this catalog (by design)
 
-- **`synthesis/.cursor/skills/tooluniverse-*`** — vendor/framework scale; optional separate Notion row if you add one.
+- **`synthesis/.cursor/skills/tooluniverse-*`** — vendor/framework scale; optional separate catalog row if you add one.
 
 ---
 
 ## Row count
 
-**21** curated PWR `SKILL.md` entries. If the Notion database shows an extra row, treat it as duplicate / scratch / legacy until reconciled with this index.
+**21** curated PWR `SKILL.md` entries. Reconcile any orphan rows against this index before adding new skills.
 
-After you change a canonical `SKILL.md`, refresh the vendored tree under **this repo** `skills/<skill_id>/` (see [`skills/README.md`](../skills/README.md)), push **skills-by-PWR-LABS**, then run the hub sync from **nucleus** — [`SKILLS_NOTION_HUB_PLAYBOOK.md`](SKILLS_NOTION_HUB_PLAYBOOK.md) §5.
+After you change a canonical `SKILL.md`, refresh the vendored tree under **this repo** `skills/<skill_id>/` (see [`skills/README.md`](../skills/README.md)), push **skills-by-PWR-LABS** — the live site at [pwr-labs.ai/chromosomes](https://pwr-labs.ai/chromosomes) reads catalog markdown from GitHub.

@@ -39,7 +39,7 @@ python3 scripts/audit_cross_repo_edges.py --strict --scope code
 - **`PWR_EDGE_AUDIT_REPOS`** — comma-separated repo folder names to scan.
 - **`PWR_EDGE_AUDIT_SCOPE`** — `code` or `all` (overrides default when set).
 
-**Notion + GitHub publication:** keep **`SKILL_ROWS`** and the public **[skills.]** catalog aligned (`docs/SKILLS_PUBLICATION_CATALOG.md` in **skills-by-PWR-LABS**); refresh **`skills/cross-repo-edge-audit/`** mirror on **PWR-LABS/nucleus**, then run the skills hub sync per **`docs/NUCLEUS_PUBLICATION_PLAYBOOK.md`**.
+**Notion + GitHub publication:** keep **`SKILL_ROWS`** and the public **[skills.]** catalog aligned (`docs/SKILLS_PUBLICATION_CATALOG.md` in **skills-by-PWR-LABS**); refresh **`skills/cross-repo-edge-audit/`** mirror on **PWR-LABS/nucleus**; public surface is [pwr-labs.ai/chromosomes](https://pwr-labs.ai/chromosomes) + GitHub — **not** the retired Notion skills hub.
 
 ## Boundaries
 
