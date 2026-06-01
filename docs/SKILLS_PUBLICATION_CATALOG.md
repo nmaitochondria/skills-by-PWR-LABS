@@ -83,6 +83,9 @@
 ## III. Not in this catalog (by design)
 
 - **`synthesis/.cursor/skills/tooluniverse-*`** — vendor/framework scale; optional separate catalog row if you add one.
+- **`synthesis/.cursor/skills/devtu-*`**, **`create-tooluniverse-skill`**, **`setup-tooluniverse`**, **`tooluniverse/`** — ToolUniverse operator/dev tooling; same exclusion.
+
+**Repo scope audit (2026-05-25):** ribosome (6), nucleus (2 governance folders → 2 catalog ids), golgi (3), chaperone (5), synthesis (2 PWR + vendor tree above), ribosomal (3). **No new catalog ids** since the 21-row index; refresh vendored packs from authoring `.cursor/skills/` when canonical `SKILL.md` changes (e.g. `portfolio-wide-governance` ← nucleus `nucleus-global-admin`).
 
 ---
 
